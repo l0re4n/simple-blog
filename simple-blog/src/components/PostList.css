@@ -1,0 +1,49 @@
+.main-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 0;
+    width: 500px;
+    background: #222;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 20px;
+}
+
+.main-wrap > ul {
+    width: 100%;
+}
+
+.main-wrap > ul > li {
+    border: 1px solid #fff;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto;
+}
+
+.main-wrap > ul > li > h3 {
+    grid-column: span 2;
+}
+
+.main-wrap > ul > li > p {
+    grid-column: span 2;
+    padding: 20px 0;
+}
+
+.main-wrap > ul > li > button {
+    background: #222;
+    color: #fff;
+    padding: 10px 15px;
+    background: purple;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.main-wrap > ul > li > button:hover {
+    background: blueviolet;
+    transition: .2s;
+}

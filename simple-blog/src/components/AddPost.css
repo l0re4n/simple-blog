@@ -1,0 +1,46 @@
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.wrap > form {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    border: 1px solid #fff;
+}
+
+.wrap > form > input,
+.wrap > form > textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    background: none;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px;
+}
+
+.wrap > form > button {
+    background: #222;
+    color: #fff;
+    padding: 10px 15px;
+    background: purple;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.wrap > form > button:hover {
+    background: blueviolet;
+    transition: .2s;
+}
+
+::placeholder {
+    color: #fff;
+  }
